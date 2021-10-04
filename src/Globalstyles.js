@@ -10,6 +10,15 @@ const Globalstyles = createGlobalStyle`
 	box-sizing: border-box;
      ${tw`font-display`}
   }
+
+  a{
+    text-decoration: none;
+  }
+  button{
+    outline: none;
+    border: none;
+    background: none;
+  }
 `;
 
 export default Globalstyles;
