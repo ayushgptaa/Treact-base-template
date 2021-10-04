@@ -1,5 +1,6 @@
+import Header from './components/headers/light.js';
 function App() {
-	return <>hello</>;
+	return <Header></Header>;
 }
 
 export default App;
